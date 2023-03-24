@@ -24,7 +24,6 @@ public class Main {
                     g[i][j] = Math.pow(Math.pow((Math.log(Math.abs(x[j])) / 3), 3), 2*(0.25-(2 / Math.pow(Math.E, Math.pow(2*x[j], 2)))));
                 }
             }
-
         }
         for(int i=0;i<16;i++)
         {
